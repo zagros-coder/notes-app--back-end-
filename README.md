@@ -1,25 +1,30 @@
-# 📝 Notes API
+# 🗒️ Notes App - Back-End (MySQL)
 
-A simple RESTful Notes API built using Node.js, Express, and MongoDB.  
-This app allows users to register, log in, and manage their personal notes securely using JWT authentication.
+A secure and simple Notes REST API built using **Node.js**, **Express**, and **MySQL**.  
+This project includes user authentication with JWT and protected CRUD operations for notes.
+
+---
 
 ## 🚀 Features
 
-- User Registration & Login
-- JWT Authentication with token verification middleware
-- CRUD operations for Notes (Create, Read, Update, Delete)
-- MongoDB with Mongoose ODM
-- Protected routes for authorized users only
-- Error handling middleware
+- ✅ User Signup & Login
+- 🔐 JWT Authentication
+- 🔐 Protected Routes (only accessible with valid token)
+- ✏️ Full CRUD operations on Notes
+- 🧂 Password hashing using bcrypt
+- 🛠️ MySQL database with users & notes tables
 
-## 🛠️ Tech Stack
+---
 
-- Node.js
-- Express.js
-- MongoDB + Mongoose
-- JSON Web Tokens (JWT)
-- bcrypt (for password hashing)
-- dotenv (for environment variables)
+## 📦 Tech Stack
+
+- Node.js + Express.js
+- MySQL + mysql2
+- bcryptjs (for password hashing)
+- jsonwebtoken (for token generation)
+- dotenv (for environment config)
+
+---
 
 ## 📁 Project Structure
 
